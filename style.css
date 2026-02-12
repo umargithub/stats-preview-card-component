@@ -72,6 +72,7 @@ body {
 
   display: grid;
   place-items: center;
+  grid-template-rows: 1fr auto;
 
   min-height: 100vh;
 }
@@ -150,6 +151,10 @@ img {
   font-family: var(--ff-secondary);
   font-size: var(--fs-stat-label);
   text-transform: uppercase;
+}
+
+footer {
+  padding: 20px;
 }
 
 .attribution {
