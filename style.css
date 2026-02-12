@@ -66,19 +66,19 @@ body {
   font-family: var(--ff-primary);
   color: var(--clr-text-body);
   font-size: var(--fs-body);
-}
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
-.page {
   background: var(--clr-bg-main);
   padding: clamp(5rem, 10vw, 5rem) clamp(1rem, 5vw, 2.5rem);
 
   display: grid;
   place-items: center;
+
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .card {
@@ -155,7 +155,6 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: #000;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
