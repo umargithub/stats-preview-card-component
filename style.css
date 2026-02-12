@@ -85,6 +85,7 @@ img {
 .card {
   background: var(--clr-bg-card);
   border-radius: var(--radius-card);
+  max-width: 30rem;
 }
 
 .card-image {
@@ -165,7 +166,7 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 70rem) {
   body {
     min-height: 100vh;
     display: grid;
@@ -175,8 +176,8 @@ footer {
   .card {
     display: grid;
     align-items: center;
-    max-width: var(--max-width-card);
     grid-template-columns: 1fr 1fr;
+    max-width: var(--max-width-card);
   }
 
   .card-content {
